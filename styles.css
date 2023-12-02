@@ -17,7 +17,7 @@ h1:hover {
  display: block;
 }
 a {
- text-decoration: none;
+ text-decoration: #ff4f30;
  color: black;
 }
 .assign {
