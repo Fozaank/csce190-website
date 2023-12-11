@@ -6,6 +6,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     padding: 20px;
+    width:100%;
   }
   
   h1 {
@@ -39,7 +40,7 @@ body {
   
   .assign img {
     width: 100%;
-    height: auto;
+    height: 200px;
     margin-top: 10px;
     border: 2px solid midnightblue;
   }
