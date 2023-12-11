@@ -1,43 +1,56 @@
-body {
-    background-color: #009FB7;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-   }
-   h1 {
-    color: #272727;
-    text-align: center;
-    width: 100%;
-    display: block;
-   }
-   h2:hover {
-    color: #ff4f30;
-    text-align: left;
-    width: 100%;
-    display: block;
-   }
-   a {
-    text-decoration: #ff4f30;
-    color: black;
-   }
-   .assign {
-    background-color: #696773;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 20px;
-    width: 20%;
-    box-shadow: 8px 8px brown;
-    display: block; /* instead of flex */
-   }
-   .assign img {
-    width: 200px;
-    margin: 10px;
-    border: 2px solid midnightblue;
-   }
-   .assign img:hover {
-    width: 200px;
-    margin: 10px;
-    border: 2px dotted yellow;
-   }
+    body {
+        background-color: #009FB7;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    h1 {
+        color: #272727;
+        text-align: center;
+        width: 100%;
+    }
+
+    h2 {
+        color: #272727;
+        text-align: center;
+        width: 100%;
+    }
+
+    
+    h2:hover {
+        color: #ff4f30;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .assign {
+        background-color: #696773;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        width: 200px;
+        box-shadow: 8px 8px brown;
+        display: block;
+        text-align: center;
+    }
+    
+    .assign img {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        border: 2px solid midnightblue;
+    }
+    
+    .assign img:hover {
+        border: 2px dotted yellow;
+    }
+    
